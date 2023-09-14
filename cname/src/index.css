@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+}
+
+p,
+h1,
+button,
+text,
+textarea,
+input,
+span {
+  font-family: "Lato", sans-serif !important;
+  letter-spacing: 0.5px !important;
+}
+
+code {
+  font-family: "Lato", sans-serif !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

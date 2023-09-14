@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+}
+
+p,
+h1,
+button,
+text,
+textarea,
+input,
+span {
+  font-family: "Lato", sans-serif !important;
+  letter-spacing: 0.5px !important;
+}
+
+code {
+  font-family: "Lato", sans-serif !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.tag-value-cell {
+  border: 1px solid #ddd;
+  padding: 0;
+  width: 750px;
+  max-width: 100%;
+  white-space: normal; /* Allow content to wrap */
+  overflow: hidden; /* Hide any overflow */
+  word-break: break-all; /* Break long words */
+  position: relative;
+}
+
+/* .tag-value-cell:hover {
+  overflow: visible;
+  white-space: normal;
+}
+
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+.tag-value-cell:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+} */
+/* .tag-value-cell {
+  border: 1px solid #ddd;
+  padding: 0;
+  width: 400px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.tag-value-cell:hover {
+  white-space: normal;
+  overflow: visible;
+  z-index: 1;
+} */
